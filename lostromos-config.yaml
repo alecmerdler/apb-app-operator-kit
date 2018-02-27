@@ -1,0 +1,10 @@
+crd:
+  group: example.com
+  name: example-apps
+  version: v1alpha1
+  namespace: ci-alm-staging
+ansible:
+  apbDir: /opt/apb/actions
+logging:
+  debug: true
+  pretty: true
