@@ -97,6 +97,11 @@ spec:
             path: reason
             x-descriptors:
               - 'urn:alm:descriptor:io.kubernetes.phase:reason'
+          - description: The status of each of the member pods for the deployment.
+            displayName: Deployment Status
+            path: members
+            x-descriptors:
+              - 'urn:alm:descriptor:com.tectonic.ui:podStatuses'
   keywords:
     - example
     - app
